@@ -1,12 +1,14 @@
 import React from 'react';
 import './App.css';
-import RechartsComponent from './components/RechartsComponent';
+import GraphComponent from './components/GraphComponent';
+import WPComponent from './components/WPComponent';
 
 function App() {
   return (
     <div className="App">
-     <div style={{margin: "0px auto"}}>
-      <RechartsComponent />
+     <div>
+      {/* including component in app js */}
+         <WPComponent />
      </div>
     </div>
   );
